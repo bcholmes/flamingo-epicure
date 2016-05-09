@@ -223,6 +223,10 @@ typedef enum {
                 [SVProgressHUD dismiss];
                 
                 if (error) {
+                    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Error" message:error.localizedDescription preferredStyle:UIAlertControllerStyleAlert];
+                    [alertController addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
+                    
+                    [self presentViewController:alertController animated:YES completion:nil];
                 } else {
                     BCHSearchResultsViewController* controller = (BCHSearchResultsViewController*) self.searchController.searchResultsController;
                     controller.searchResults = self.restaurantList = [self sortRestaurants:resturants sortType:self.currentSortType];
