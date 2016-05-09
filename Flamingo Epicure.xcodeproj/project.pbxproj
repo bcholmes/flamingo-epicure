@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BDCB62FA123801D99D90BE9 /* libPods-Flamingo Epicure.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C518F1FCFEDAB569AA7163 /* libPods-Flamingo Epicure.a */; };
+		72BF9ED9891531329E16638E /* libPods-Flamingo EpicureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA9E5725BA8332019B11D41 /* libPods-Flamingo EpicureTests.a */; };
+		D801F9371CDA4A76004E23D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9361CDA4A76004E23D6 /* main.m */; };
+		D801F93A1CDA4A76004E23D6 /* BCHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9391CDA4A76004E23D6 /* BCHAppDelegate.m */; };
+		D801F93D1CDA4A76004E23D6 /* BCHRestaurantListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F93C1CDA4A76004E23D6 /* BCHRestaurantListViewController.m */; };
+		D801F9401CDA4A76004E23D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D801F93E1CDA4A76004E23D6 /* Main.storyboard */; };
+		D801F9421CDA4A76004E23D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D801F9411CDA4A76004E23D6 /* Assets.xcassets */; };
+		D801F9451CDA4A76004E23D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D801F9431CDA4A76004E23D6 /* LaunchScreen.storyboard */; };
+		D801F95D1CDA7781004E23D6 /* BCHYelpService.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F95C1CDA7781004E23D6 /* BCHYelpService.m */; };
+		D801F9611CDA7DD9004E23D6 /* BCHRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9601CDA7DD9004E23D6 /* BCHRestaurant.m */; };
+		D801F9651CDD02DC004E23D6 /* BCHYelpApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9641CDD02DC004E23D6 /* BCHYelpApi.m */; };
+		D801F9681CDD37EE004E23D6 /* BCHRestaurantCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9671CDD37EE004E23D6 /* BCHRestaurantCollectionViewCell.m */; };
+		D801F96B1CDD409A004E23D6 /* BCHRestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F96A1CDD409A004E23D6 /* BCHRestaurantDetailViewController.m */; };
+		D801F96E1CDD430C004E23D6 /* BCHLightboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F96D1CDD430C004E23D6 /* BCHLightboxView.m */; };
+		D801F9711CDD4DF7004E23D6 /* BCHHairlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9701CDD4DF7004E23D6 /* BCHHairlineView.m */; };
+		D801F9741CDD655E004E23D6 /* BCHSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9731CDD655E004E23D6 /* BCHSearchResultsViewController.m */; };
+		D801F9761CE0CE70004E23D6 /* BCHRestaurantTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9751CE0CE70004E23D6 /* BCHRestaurantTest.m */; };
+		D801F9781CE0CF60004E23D6 /* yelp.json in Resources */ = {isa = PBXBuildFile; fileRef = D801F9771CE0CF60004E23D6 /* yelp.json */; };
+		D801F9791CE0CF6F004E23D6 /* BCHRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9601CDA7DD9004E23D6 /* BCHRestaurant.m */; };
+		D801F97B1CE0DCB7004E23D6 /* BCHYelpServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F97A1CE0DCB7004E23D6 /* BCHYelpServiceTest.m */; };
+		D801F97C1CE0DCC3004E23D6 /* BCHYelpService.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F95C1CDA7781004E23D6 /* BCHYelpService.m */; };
+		D801F97D1CE0DCC6004E23D6 /* BCHYelpApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9641CDD02DC004E23D6 /* BCHYelpApi.m */; };
+		D801F97F1CE0F119004E23D6 /* Yelp.plist in Resources */ = {isa = PBXBuildFile; fileRef = D801F97E1CE0F119004E23D6 /* Yelp.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D801F94C1CDA4A76004E23D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D801F92A1CDA4A76004E23D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D801F9311CDA4A76004E23D6;
+			remoteInfo = "Flamingo Epicure";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286CC368D58FD40985310AB9 /* Pods-Flamingo Epicure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flamingo Epicure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flamingo Epicure/Pods-Flamingo Epicure.debug.xcconfig"; sourceTree = "<group>"; };
+		32C518F1FCFEDAB569AA7163 /* libPods-Flamingo Epicure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flamingo Epicure.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA9E5725BA8332019B11D41 /* libPods-Flamingo EpicureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flamingo EpicureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806BE8E588E0861DB4257634 /* Pods-Flamingo Epicure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flamingo Epicure.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flamingo Epicure/Pods-Flamingo Epicure.release.xcconfig"; sourceTree = "<group>"; };
+		CB4471E9A560F0389B8835D5 /* Pods-Flamingo EpicureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flamingo EpicureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flamingo EpicureTests/Pods-Flamingo EpicureTests.release.xcconfig"; sourceTree = "<group>"; };
+		D801F9321CDA4A76004E23D6 /* Flamingo Epicure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flamingo Epicure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D801F9361CDA4A76004E23D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D801F9381CDA4A76004E23D6 /* BCHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCHAppDelegate.h; sourceTree = "<group>"; };
+		D801F9391CDA4A76004E23D6 /* BCHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCHAppDelegate.m; sourceTree = "<group>"; };
+		D801F93B1CDA4A76004E23D6 /* BCHRestaurantListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCHRestaurantListViewController.h; sourceTree = "<group>"; };
+		D801F93C1CDA4A76004E23D6 /* BCHRestaurantListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCHRestaurantListViewController.m; sourceTree = "<group>"; };
+		D801F93F1CDA4A76004E23D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D801F9411CDA4A76004E23D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D801F9441CDA4A76004E23D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D801F9461CDA4A76004E23D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D801F94B1CDA4A76004E23D6 /* Flamingo EpicureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flamingo EpicureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D801F9511CDA4A76004E23D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D801F95B1CDA7781004E23D6 /* BCHYelpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHYelpService.h; sourceTree = "<group>"; };
+		D801F95C1CDA7781004E23D6 /* BCHYelpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHYelpService.m; sourceTree = "<group>"; };
+		D801F95F1CDA7DD9004E23D6 /* BCHRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHRestaurant.h; sourceTree = "<group>"; };
+		D801F9601CDA7DD9004E23D6 /* BCHRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHRestaurant.m; sourceTree = "<group>"; };
+		D801F9631CDD02DC004E23D6 /* BCHYelpApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHYelpApi.h; sourceTree = "<group>"; };
+		D801F9641CDD02DC004E23D6 /* BCHYelpApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHYelpApi.m; sourceTree = "<group>"; };
+		D801F9661CDD37EE004E23D6 /* BCHRestaurantCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHRestaurantCollectionViewCell.h; sourceTree = "<group>"; };
+		D801F9671CDD37EE004E23D6 /* BCHRestaurantCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHRestaurantCollectionViewCell.m; sourceTree = "<group>"; };
+		D801F9691CDD409A004E23D6 /* BCHRestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHRestaurantDetailViewController.h; sourceTree = "<group>"; };
+		D801F96A1CDD409A004E23D6 /* BCHRestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHRestaurantDetailViewController.m; sourceTree = "<group>"; };
+		D801F96C1CDD430C004E23D6 /* BCHLightboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHLightboxView.h; sourceTree = "<group>"; };
+		D801F96D1CDD430C004E23D6 /* BCHLightboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHLightboxView.m; sourceTree = "<group>"; };
+		D801F96F1CDD4DF7004E23D6 /* BCHHairlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHHairlineView.h; sourceTree = "<group>"; };
+		D801F9701CDD4DF7004E23D6 /* BCHHairlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHHairlineView.m; sourceTree = "<group>"; };
+		D801F9721CDD655E004E23D6 /* BCHSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHSearchResultsViewController.h; sourceTree = "<group>"; };
+		D801F9731CDD655E004E23D6 /* BCHSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHSearchResultsViewController.m; sourceTree = "<group>"; };
+		D801F9751CE0CE70004E23D6 /* BCHRestaurantTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHRestaurantTest.m; sourceTree = "<group>"; };
+		D801F9771CE0CF60004E23D6 /* yelp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yelp.json; sourceTree = "<group>"; };
+		D801F97A1CE0DCB7004E23D6 /* BCHYelpServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHYelpServiceTest.m; sourceTree = "<group>"; };
+		D801F97E1CE0F119004E23D6 /* Yelp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Yelp.plist; sourceTree = "<group>"; };
+		E3DE011F955D8485577A6E21 /* Pods-Flamingo EpicureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flamingo EpicureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flamingo EpicureTests/Pods-Flamingo EpicureTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D801F92F1CDA4A76004E23D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDCB62FA123801D99D90BE9 /* libPods-Flamingo Epicure.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D801F9481CDA4A76004E23D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BF9ED9891531329E16638E /* libPods-Flamingo EpicureTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79B49F3D9D5C3863CAC0CDAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				286CC368D58FD40985310AB9 /* Pods-Flamingo Epicure.debug.xcconfig */,
+				806BE8E588E0861DB4257634 /* Pods-Flamingo Epicure.release.xcconfig */,
+				E3DE011F955D8485577A6E21 /* Pods-Flamingo EpicureTests.debug.xcconfig */,
+				CB4471E9A560F0389B8835D5 /* Pods-Flamingo EpicureTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A19A7AB4D08472822F5A108A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C518F1FCFEDAB569AA7163 /* libPods-Flamingo Epicure.a */,
+				3BA9E5725BA8332019B11D41 /* libPods-Flamingo EpicureTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D801F9291CDA4A76004E23D6 = {
+			isa = PBXGroup;
+			children = (
+				D801F9341CDA4A76004E23D6 /* Flamingo Epicure */,
+				D801F94E1CDA4A76004E23D6 /* Flamingo EpicureTests */,
+				D801F9331CDA4A76004E23D6 /* Products */,
+				79B49F3D9D5C3863CAC0CDAF /* Pods */,
+				A19A7AB4D08472822F5A108A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D801F9331CDA4A76004E23D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D801F9321CDA4A76004E23D6 /* Flamingo Epicure.app */,
+				D801F94B1CDA4A76004E23D6 /* Flamingo EpicureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D801F9341CDA4A76004E23D6 /* Flamingo Epicure */ = {
+			isa = PBXGroup;
+			children = (
+				D801F95E1CDA7DBA004E23D6 /* Models */,
+				D801F95A1CDA772D004E23D6 /* Services */,
+				D801F9621CDA8A91004E23D6 /* View Controllers */,
+				D801F9381CDA4A76004E23D6 /* BCHAppDelegate.h */,
+				D801F9391CDA4A76004E23D6 /* BCHAppDelegate.m */,
+				D801F93E1CDA4A76004E23D6 /* Main.storyboard */,
+				D801F9411CDA4A76004E23D6 /* Assets.xcassets */,
+				D801F9431CDA4A76004E23D6 /* LaunchScreen.storyboard */,
+				D801F9461CDA4A76004E23D6 /* Info.plist */,
+				D801F97E1CE0F119004E23D6 /* Yelp.plist */,
+				D801F9351CDA4A76004E23D6 /* Supporting Files */,
+			);
+			path = "Flamingo Epicure";
+			sourceTree = "<group>";
+		};
+		D801F9351CDA4A76004E23D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D801F9361CDA4A76004E23D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D801F94E1CDA4A76004E23D6 /* Flamingo EpicureTests */ = {
+			isa = PBXGroup;
+			children = (
+				D801F9771CE0CF60004E23D6 /* yelp.json */,
+				D801F9511CDA4A76004E23D6 /* Info.plist */,
+				D801F9751CE0CE70004E23D6 /* BCHRestaurantTest.m */,
+				D801F97A1CE0DCB7004E23D6 /* BCHYelpServiceTest.m */,
+			);
+			path = "Flamingo EpicureTests";
+			sourceTree = "<group>";
+		};
+		D801F95A1CDA772D004E23D6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D801F95B1CDA7781004E23D6 /* BCHYelpService.h */,
+				D801F95C1CDA7781004E23D6 /* BCHYelpService.m */,
+				D801F9631CDD02DC004E23D6 /* BCHYelpApi.h */,
+				D801F9641CDD02DC004E23D6 /* BCHYelpApi.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D801F95E1CDA7DBA004E23D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D801F95F1CDA7DD9004E23D6 /* BCHRestaurant.h */,
+				D801F9601CDA7DD9004E23D6 /* BCHRestaurant.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D801F9621CDA8A91004E23D6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D801F93B1CDA4A76004E23D6 /* BCHRestaurantListViewController.h */,
+				D801F93C1CDA4A76004E23D6 /* BCHRestaurantListViewController.m */,
+				D801F9661CDD37EE004E23D6 /* BCHRestaurantCollectionViewCell.h */,
+				D801F9671CDD37EE004E23D6 /* BCHRestaurantCollectionViewCell.m */,
+				D801F9691CDD409A004E23D6 /* BCHRestaurantDetailViewController.h */,
+				D801F96A1CDD409A004E23D6 /* BCHRestaurantDetailViewController.m */,
+				D801F96C1CDD430C004E23D6 /* BCHLightboxView.h */,
+				D801F96D1CDD430C004E23D6 /* BCHLightboxView.m */,
+				D801F96F1CDD4DF7004E23D6 /* BCHHairlineView.h */,
+				D801F9701CDD4DF7004E23D6 /* BCHHairlineView.m */,
+				D801F9721CDD655E004E23D6 /* BCHSearchResultsViewController.h */,
+				D801F9731CDD655E004E23D6 /* BCHSearchResultsViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D801F9311CDA4A76004E23D6 /* Flamingo Epicure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D801F9541CDA4A76004E23D6 /* Build configuration list for PBXNativeTarget "Flamingo Epicure" */;
+			buildPhases = (
+				6445FD62918B134C56CAFD92 /* Check Pods Manifest.lock */,
+				D801F92E1CDA4A76004E23D6 /* Sources */,
+				D801F92F1CDA4A76004E23D6 /* Frameworks */,
+				D801F9301CDA4A76004E23D6 /* Resources */,
+				EE8141C7A3ABF11BD78547D1 /* Embed Pods Frameworks */,
+				98AE7450636A4D0F6A994B2F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flamingo Epicure";
+			productName = "Flamingo Epicure";
+			productReference = D801F9321CDA4A76004E23D6 /* Flamingo Epicure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D801F94A1CDA4A76004E23D6 /* Flamingo EpicureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D801F9571CDA4A76004E23D6 /* Build configuration list for PBXNativeTarget "Flamingo EpicureTests" */;
+			buildPhases = (
+				7E02650A570CCA00B02685BD /* Check Pods Manifest.lock */,
+				D801F9471CDA4A76004E23D6 /* Sources */,
+				D801F9481CDA4A76004E23D6 /* Frameworks */,
+				D801F9491CDA4A76004E23D6 /* Resources */,
+				50DE05A9C9A41CA0E3398F76 /* Embed Pods Frameworks */,
+				2AA0AC43D647D51AAEEBFEB2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D801F94D1CDA4A76004E23D6 /* PBXTargetDependency */,
+			);
+			name = "Flamingo EpicureTests";
+			productName = "Flamingo EpicureTests";
+			productReference = D801F94B1CDA4A76004E23D6 /* Flamingo EpicureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D801F92A1CDA4A76004E23D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BCH;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Intelliware Development";
+				TargetAttributes = {
+					D801F9311CDA4A76004E23D6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D801F94A1CDA4A76004E23D6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D801F9311CDA4A76004E23D6;
+					};
+				};
+			};
+			buildConfigurationList = D801F92D1CDA4A76004E23D6 /* Build configuration list for PBXProject "Flamingo Epicure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D801F9291CDA4A76004E23D6;
+			productRefGroup = D801F9331CDA4A76004E23D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D801F9311CDA4A76004E23D6 /* Flamingo Epicure */,
+				D801F94A1CDA4A76004E23D6 /* Flamingo EpicureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D801F9301CDA4A76004E23D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D801F9451CDA4A76004E23D6 /* LaunchScreen.storyboard in Resources */,
+				D801F9421CDA4A76004E23D6 /* Assets.xcassets in Resources */,
+				D801F97F1CE0F119004E23D6 /* Yelp.plist in Resources */,
+				D801F9401CDA4A76004E23D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D801F9491CDA4A76004E23D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D801F9781CE0CF60004E23D6 /* yelp.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AA0AC43D647D51AAEEBFEB2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flamingo EpicureTests/Pods-Flamingo EpicureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50DE05A9C9A41CA0E3398F76 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flamingo EpicureTests/Pods-Flamingo EpicureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6445FD62918B134C56CAFD92 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E02650A570CCA00B02685BD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98AE7450636A4D0F6A994B2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flamingo Epicure/Pods-Flamingo Epicure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8141C7A3ABF11BD78547D1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flamingo Epicure/Pods-Flamingo Epicure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D801F92E1CDA4A76004E23D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D801F9611CDA7DD9004E23D6 /* BCHRestaurant.m in Sources */,
+				D801F93D1CDA4A76004E23D6 /* BCHRestaurantListViewController.m in Sources */,
+				D801F9651CDD02DC004E23D6 /* BCHYelpApi.m in Sources */,
+				D801F93A1CDA4A76004E23D6 /* BCHAppDelegate.m in Sources */,
+				D801F9371CDA4A76004E23D6 /* main.m in Sources */,
+				D801F9741CDD655E004E23D6 /* BCHSearchResultsViewController.m in Sources */,
+				D801F96E1CDD430C004E23D6 /* BCHLightboxView.m in Sources */,
+				D801F95D1CDA7781004E23D6 /* BCHYelpService.m in Sources */,
+				D801F96B1CDD409A004E23D6 /* BCHRestaurantDetailViewController.m in Sources */,
+				D801F9711CDD4DF7004E23D6 /* BCHHairlineView.m in Sources */,
+				D801F9681CDD37EE004E23D6 /* BCHRestaurantCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D801F9471CDA4A76004E23D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D801F9791CE0CF6F004E23D6 /* BCHRestaurant.m in Sources */,
+				D801F9761CE0CE70004E23D6 /* BCHRestaurantTest.m in Sources */,
+				D801F97D1CE0DCC6004E23D6 /* BCHYelpApi.m in Sources */,
+				D801F97C1CE0DCC3004E23D6 /* BCHYelpService.m in Sources */,
+				D801F97B1CE0DCB7004E23D6 /* BCHYelpServiceTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D801F94D1CDA4A76004E23D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D801F9311CDA4A76004E23D6 /* Flamingo Epicure */;
+			targetProxy = D801F94C1CDA4A76004E23D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D801F93E1CDA4A76004E23D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D801F93F1CDA4A76004E23D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D801F9431CDA4A76004E23D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D801F9441CDA4A76004E23D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D801F9521CDA4A76004E23D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D801F9531CDA4A76004E23D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D801F9551CDA4A76004E23D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286CC368D58FD40985310AB9 /* Pods-Flamingo Epicure.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flamingo Epicure/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.intelliware.rbc.Flamingo-Epicure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D801F9561CDA4A76004E23D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806BE8E588E0861DB4257634 /* Pods-Flamingo Epicure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flamingo Epicure/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.intelliware.rbc.Flamingo-Epicure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D801F9581CDA4A76004E23D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3DE011F955D8485577A6E21 /* Pods-Flamingo EpicureTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Flamingo EpicureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.intelliware.rbc.Flamingo-EpicureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flamingo Epicure.app/Flamingo Epicure";
+			};
+			name = Debug;
+		};
+		D801F9591CDA4A76004E23D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4471E9A560F0389B8835D5 /* Pods-Flamingo EpicureTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Flamingo EpicureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.intelliware.rbc.Flamingo-EpicureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flamingo Epicure.app/Flamingo Epicure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D801F92D1CDA4A76004E23D6 /* Build configuration list for PBXProject "Flamingo Epicure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D801F9521CDA4A76004E23D6 /* Debug */,
+				D801F9531CDA4A76004E23D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D801F9541CDA4A76004E23D6 /* Build configuration list for PBXNativeTarget "Flamingo Epicure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D801F9551CDA4A76004E23D6 /* Debug */,
+				D801F9561CDA4A76004E23D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D801F9571CDA4A76004E23D6 /* Build configuration list for PBXNativeTarget "Flamingo EpicureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D801F9581CDA4A76004E23D6 /* Debug */,
+				D801F9591CDA4A76004E23D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D801F92A1CDA4A76004E23D6 /* Project object */;
+}
