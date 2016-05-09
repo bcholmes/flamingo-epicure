@@ -25,10 +25,7 @@
 		D801F9741CDD655E004E23D6 /* BCHSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9731CDD655E004E23D6 /* BCHSearchResultsViewController.m */; };
 		D801F9761CE0CE70004E23D6 /* BCHRestaurantTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9751CE0CE70004E23D6 /* BCHRestaurantTest.m */; };
 		D801F9781CE0CF60004E23D6 /* yelp.json in Resources */ = {isa = PBXBuildFile; fileRef = D801F9771CE0CF60004E23D6 /* yelp.json */; };
-		D801F9791CE0CF6F004E23D6 /* BCHRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9601CDA7DD9004E23D6 /* BCHRestaurant.m */; };
 		D801F97B1CE0DCB7004E23D6 /* BCHYelpServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F97A1CE0DCB7004E23D6 /* BCHYelpServiceTest.m */; };
-		D801F97C1CE0DCC3004E23D6 /* BCHYelpService.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F95C1CDA7781004E23D6 /* BCHYelpService.m */; };
-		D801F97D1CE0DCC6004E23D6 /* BCHYelpApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D801F9641CDD02DC004E23D6 /* BCHYelpApi.m */; };
 		D801F97F1CE0F119004E23D6 /* Yelp.plist in Resources */ = {isa = PBXBuildFile; fileRef = D801F97E1CE0F119004E23D6 /* Yelp.plist */; };
 /* End PBXBuildFile section */
 
@@ -439,10 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D801F9791CE0CF6F004E23D6 /* BCHRestaurant.m in Sources */,
 				D801F9761CE0CE70004E23D6 /* BCHRestaurantTest.m in Sources */,
-				D801F97D1CE0DCC6004E23D6 /* BCHYelpApi.m in Sources */,
-				D801F97C1CE0DCC3004E23D6 /* BCHYelpService.m in Sources */,
 				D801F97B1CE0DCB7004E23D6 /* BCHYelpServiceTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
